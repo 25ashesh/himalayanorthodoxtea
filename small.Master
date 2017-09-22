@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="small.master.cs" Inherits="himalayanorthodoxtea.small" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="Description" content="This page provides information on Nepalese Tea and allows customers to place orders." />
+    <meta name="Keywords" content="smalltea, himalayan orthodox tea, Tea, Best tea, Nepalese Tea, Illam, Kanyam, Visit Illam, Tea Order, Nepal Tea, Tea Spices, Black Tea, Green Tea, Organic Tea, Orthodox Tea, Learn to prepare tea, Best tea, Tea Gardens, Order tea, Benefits of black tea, Health benefits of tea, Organic tea benefits, Types of tea, Grades of tea, Orthodox tea, Himalayan Tea,tea business, Indian tea, Darjelling tea, tea estates, tea photos, tea pictures, हिमालयन अर्थोडक्स चिया, हातेपत्ति, चिया, स्मल् टी, फ्क्किल, ईलाम, कन्याम " />
+    <meta name="Rating" content="General" />
+    <meta name="Robots" content="index, follow, NOODP" />
+    <meta name="Revisit-After" content="1 days" />
+    <meta name="application-name" content="smalltea" />
+    <title>स्मल् टी [स्वागतम]</title>
+    <link rel="Shortcut Icon" href="images/favicon.ico" type="image/x-icon" />
+    <!-- must have -->
+    <link href="css/bannerscollection_zoominout.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic'
+        rel='stylesheet' type='text/css' />
+    <script src="js/jquery-1.9.1.js" type="text/javascript"></script>
+    <script src="js/bannerscollection_zoominout.js" type="text/javascript"></script>
+    <script src="js/jquery-ui.js" type="text/javascript"></script>
+    <script src="js/jssor.core.js" type="text/javascript"></script>
+    <script src="js/jssor.slider.js" type="text/javascript"></script>
+    <script src="js/jssor.utils.js" type="text/javascript"></script>
+    <script src="js/ash.js" type="text/javascript"></script>
+    <script src="js/jquery.ui.touch-punch.min.js" type="text/javascript"></script>
+    <!--[if IE 6]>
+	<link rel="stylesheet" href="http://www.wphud.themolitor.com/wp-content/themes/wphud/ie6.css" type="text/css" media="screen" />
+	<![endif]-->
+    <!--[if lt IE 8]>
+	<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+	<![endif]-->
+    <!-- must have -->
+    <%--<script type="text/javascript">
+    function zipBack() { 
+        window.scroll(0,0)
+    }
+    function init() { 
+        document.body.onscroll = zipBack
+    }
+</script>--%>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body onload="init()">
+    <div id="fb-root">
+    </div>
+    <script type="text/javascript">
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1527530517494416&version=v2.0";
+            fjs.parentNode.insertBefore(js, fjs);
+        } (document, 'script', 'facebook-jssdk'));
+    </script>
+    <table>
+        <tr>
+            <td style="background-image: url(images/topp.png); height: 43px;" colspan="2">
+                <asp:ContentPlaceHolder ID="logo" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <asp:ContentPlaceHolder ID="slider" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+            <td>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

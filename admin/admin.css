@@ -1,0 +1,135 @@
+﻿.GridPager a, .GridPager span
+    {
+        display: block;
+        height: 20px;
+        width: 20px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+    }
+    .GridPager a
+    {
+        background-color: #f5f5f5;
+        color: #969696;
+        border: 1px solid #969696;
+    }
+    .GridPager span
+    {
+        background-color: #A1DCF2;
+        color: #000;
+        border: 1px solid #3AC0F2;
+    }
+
+body { 
+	margin:0px 0; 
+	padding:0; 
+	font: 74% Arial, Sans-Serif; 
+	color:#ccc;  
+	background: #343434 repeat-x;
+	line-height: 1.4em; 
+}
+
+
+/* SUBHEADER 
+---------------------------------------------------------------------------------------------------------------------------------------------------*/
+#subheader  
+{
+
+	background: #A90000 repeat-y center;
+	width: 1348px;
+	height: 75px;
+	background-color: #A90000;
+	color: #FFF;
+}
+#subheader .padding { padding: 10px 15px 10px 15px; }
+#subheader a {color: #FECF5F; }
+
+/* NAVIGATION
+---------------------------------------------------------------------------------------------------------------------------------------------------*/
+.nav { text-align: left; color:#7D8085; padding: 20px 0 0 0px; width: 150px; }
+.nav li { 
+	font-weight: bold; 
+	margin: 5px 0 5px 0px; 
+	padding: 0px 0 0 0px; 
+	border-bottom: 1px solid #ccc; 
+	height: 25px; background: url(img/li.png) no-repeat left;
+	
+}
+.nav li a { color: #546078; text-decoration: none;  padding: 5px 0 0 10px; display: block; height: 25px;}
+.nav li a:hover { color: #FFF; text-decoration: none;text-transform:uppercase; background: #A90000; display: block; height: 25px;}
+
+
+/* MAIN
+---------------------------------------------------------------------------------------------------------------------------------------------------*/
+#main { background: #FFF; width: 1330px; height:850px; margin: 0 10px 0 10px; color: #808080; }  
+#main .left_side  
+{
+	padding:0px 0 0 10px;
+	margin:10px 10px;
+	width: 180px; 
+	background: url(img/mright.png) no-repeat right; 
+	min-height: 505px;  
+}
+
+#main .left_side .hitems { margin: 0; 	padding: 0; }
+#main .left_side .hitems ul { 
+	margin: 5px 0 5px 0; 
+	padding : 0; 
+	color: #a90000;
+	list-style-image: url(img/arrow.gif);
+}
+	
+#main .left_side .hitems li { 
+	margin: 0 0 2px 20px;
+	padding: 0 0 0 0px;
+	color: #555;
+	
+	 
+}
+
+#main .right_side 
+{
+
+     overflow:auto;
+     width: 1100px; 
+     background: #FFF; 
+
+     margin:10px 1px 10px 10px;
+    }
+
+
+/*     position:relative; 
+     left:350; ---------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+ul { margin: 0 0 0px 0; padding : 0; list-style : none; }
+li { 	margin: 0 0 2px 0; padding: 0 0 0 0px;	color: #555; }
+
+
+p { margin: 0 0 5px 0; padding: 0; color: #808080; background: inherit; }
+a { color: #a90000; background: inherit; text-decoration:none; }
+a:hover { color:#FC7901; background: inherit; text-decoration:none; }
+
+h1 { 
+	padding:0;
+	float:right; 
+	margin:0; 
+	color: #ccffcc; 
+	background: inherit;
+	font: bold 1.8em Calisto MT,Arial, Sans-Serif; 
+	letter-spacing: -1px;
+}
+
+h1 a { color: #FFF; background: inherit; }
+
+h2 { 
+	background: url(img/h.gif) no-repeat left;
+	color:#000;
+	font-size:140%; 
+	font-weight:bold; 
+	margin: 5px 0 5px 0px; 
+	padding:0 0 0 15px; 
+}
+
+h2 a { background: #FFF; color: #000; }
+h2 a:hover { background: #FFF; color: #A90000; }
+

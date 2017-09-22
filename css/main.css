@@ -1,0 +1,488 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td
+{
+    margin: 0;
+    padding: 0;
+}
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 1em;
+}
+fieldset, img
+{
+    border: 0;
+}
+address, caption, cite, code, dfn, th, var
+{
+    font-style: normal;
+    font-weight: normal;
+}
+ol, ul
+{
+    list-style: none;
+}
+caption, th
+{
+    text-align: left;
+}
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 100%;
+    font-weight: normal;
+}
+q:before, q:after
+{
+    content: '';
+}
+abbr, acronym
+{
+    border: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+{
+    display: block;
+}
+
+.demo-description
+{
+    clear: both;
+    padding: 12px;
+    font-size: 1.3em;
+    line-height: 1.4em;
+}
+
+.ui-draggable, .ui-droppable
+{
+    background-position: top;
+}
+
+#tabs
+{
+    background: #fff;
+    height: 600px;
+}
+
+#tabs ul
+{
+    background-color: White;
+}
+
+/* facebook twitter*/
+
+span.reference
+{
+    /*position: fixed;     left: 1100px;     bottom: 5px;*/
+    float: right;
+    font-size: 12px;
+}
+
+h3
+{
+    font-weight: bold;
+    font-family: Calisto MT;
+    font-size: 16px;
+    color: #777744;
+}
+span.reference a
+{
+    color: Blue;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #000;
+    margin-right: 30px;
+}
+span.reference a:hover
+{
+    color: #aaa;
+    text-transform: uppercase;
+}
+
+/*copyright smalltea*/
+
+span.reference1
+{
+    /*position: fixed;     left: 300px;     bottom: 3px;*/
+    float: left;
+    font-size: 14px;
+}
+
+
+span.reference1 a
+{
+    color: #222;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #000;
+    margin-right: 30px;
+}
+span.reference1 a:hover
+{
+    color: Blue;
+}
+
+
+label
+{
+    display: inline-block;
+    width: 5em;
+}
+fieldset div
+{
+    margin-bottom: 2em;
+}
+fieldset .help
+{
+    display: inline-block;
+}
+.ui-tooltip
+{
+    width: 140px;
+}
+
+
+.styletab
+{
+    width: 1000px;
+    height: 475px;
+}
+.styletab_overflow
+{
+    width: 1000px;
+    height: 475px;
+    overflow: auto;
+}
+
+body
+{
+    background: #fff url(../img/bg8.jpg) repeat top left;
+    padding: 0;
+    margin: 4px 5px 3px 7px;
+    font: 0.7em Tahoma, Arial, sans-serif;
+    line-height: 1.6em;
+    color: #454545;
+}
+
+.lbltotalprice
+{
+    position: fixed;
+    bottom: 225px;
+    right: 100px;
+    font-family: Myriad Pro;
+    font-size: medium;
+    font-weight: bold;
+    color: Red;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+/*--------------------------*/
+/* jssor slider navigator skin 03 css */
+/*
+            .jssorn03 div           (normal)
+            .jssorn03 div:hover     (normal mouseover)
+            .jssorn03 .av           (active)
+            .jssorn03 .av:hover     (active mouseover)
+            .jssorn03 .dn           (mousedown)
+            */
+.jssorn03 div, .jssorn03 div:hover, .jssorn03 .av
+{
+    background: url(../tea/n03.png) no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+}
+.jssorn03 div
+{
+    background-position: -5px -4px;
+}
+.jssorn03 div:hover, .jssorn03 .av:hover
+{
+    background-position: -35px -4px;
+}
+.jssorn03 .av
+{
+    background-position: -65px -4px;
+}
+.jssorn03 .dn, .jssorn03 .dn:hover
+{
+    background-position: -95px -4px;
+}
+
+
+/* jssor slider direction navigator skin 03 css */
+/*
+            .jssord03l              (normal)
+            .jssord03r              (normal)
+            .jssord03l:hover        (normal mouseover)
+            .jssord03r:hover        (normal mouseover)
+            .jssord03ldn            (mousedown)
+            .jssord03rdn            (mousedown)
+            */
+.jssord03l, .jssord03r, .jssord03ldn, .jssord03rdn
+{
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    background: url(../tea/d03.png) no-repeat;
+    overflow: hidden;
+}
+.jssord03l
+{
+    background-position: -3px -33px;
+}
+.jssord03r
+{
+    background-position: -63px -33px;
+}
+.jssord03l:hover
+{
+    background-position: -123px -33px;
+}
+.jssord03r:hover
+{
+    background-position: -183px -33px;
+}
+.jssord03ldn
+{
+    background-position: -243px -33px;
+}
+.jssord03rdn
+{
+    background-position: -303px -33px;
+}
+
+p
+{
+    font-family: tahoma, sans-serif;
+    text-indent: 2em;
+}
+
+h1, h10
+{
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+    font-weight: normal;
+    line-height: 1;
+    color: #007042;
+}
+
+
+.thirds
+{
+    float: left;
+    width: 215px;
+    background: #eee;
+    margin: 0 12px 0 0;
+    color: #5d5d5d;
+}
+.smallboxtop
+{
+    height: 14px;
+    background: #fff url(images/smallboxtop.gif) no-repeat;
+    color: #000;
+}
+.smallbox
+{
+    background: #fff url(images/smallbox.gif) no-repeat bottom left;
+    color: #444;
+    padding: 5px 10px 10px 10px;
+}
+.smallbox p
+{
+    padding: 0;
+    margin: 0;
+}
+
+.smallbox ol li:hover
+{
+    color: #222;
+}
+
+
+/* left side *//*leeft*/
+
+.leeft
+{
+    width: 475px;
+    padding: 5px;
+    margin: 1px 5px 2px 3px;
+}
+.left_articles
+{
+    margin: 0 20px 15px 10px;
+    padding: 10px 0 0 0;
+    text-align: justify;
+    border-bottom: 1px dotted #ccc;
+    color: #000;
+    background: #fff;
+}
+
+.illamgallery
+{
+    color: Blue;
+    font-size: medium;
+    text-decoration: underline;
+}
+.illamgallery:hover
+{
+    color: Olive;
+    text-transform: uppercase;
+}
+/* grey subheader */
+.gboxtop
+{
+    clear: both;
+    height: 8px;
+    color: #000;
+}
+
+.gbox
+{
+    background: #f4f4f4 url(images/bodybg.gif) repeat;
+    color: #444;
+    padding: 1px 13px 7px 13px;
+    padding: 5px;
+    margin: 0 0 20px 0;
+}
+.gbox p
+{
+    padding: 7px 0;
+    margin: 0;
+}
+
+.boxtop
+{
+    height: 19px;
+    background: #fff url(images/boxtop.gif) no-repeat;
+    color: #000;
+}
+.box
+{
+    background: #fff url(images/box.gif) no-repeat bottom left;
+    color: #5b5b5b;
+    padding: 0 10px 15px 10px;
+    margin: 0 0 10px 0;
+}
+.box p
+{
+    padding: 0;
+    margin: 0;
+}
+
+#right
+{
+    float: right;
+    width: 295px;
+    margin: 0 0 10px 0;
+}
+hr
+{
+    border: 0;
+    float: left;
+    width: 800px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+.buttonclass
+{
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
+    border-radius: 5%;
+}
+
+
+.Label
+{
+    color: #007042;
+}
+
+.Labell
+{
+    color: #996699;
+}
+
+
+.floater
+{
+    float: right;
+}
+
+
+.imgsize
+{
+    height: 50px;
+    width: 100px;
+    border: 2px solid #cccccc;
+}
+
+.teapreprn
+{
+    height: 150px;
+    width: 200px;
+    border: 2px solid #cccccc;
+}
+.teapreprn:hover
+{
+    border: 2px solid #cf0;
+}
+
+#infobox
+{
+    float: right;
+    width: 430px;
+    height: 90px;
+    border: 1px solid #ccc;
+    background: #f4f4f4 url(images/bodybg.gif) repeat;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#infobox2
+{
+    float: right;
+    width: 430px;
+    height: 75px;
+    border: 1px solid #ccc;
+    background: #f4f4f4 url(images/bodybg.gif) repeat;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+.imgbdr
+{
+    height: 90px;
+    width: 90px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    border: 3px solid #cccccc;
+}
+
+.imgbdr:hover
+{
+    height: 90px;
+    width: 90px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    border: 3px solid #cf0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+    -webkit-filter: contrast(115%);
+}
+
+
+.lblorderreport
+{
+    float: left;
+    font-family: Calisto MT;
+    font-size: x-large;
+}
+
+.ordrbtn:hover
+{
+    color: #996699;
+    font-weight: bold;
+}
+

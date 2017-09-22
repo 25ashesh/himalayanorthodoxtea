@@ -1,0 +1,11 @@
+C:\Users\ashesh\Documents\Visual Studio 2010\Projects\HIMALAYANORTHODOXTEA\himalayanorthodoxtea itr23\himalayanorthodoxtea\bin\himalayanorthodoxtea.dll
+C:\Users\ashesh\Documents\Visual Studio 2010\Projects\HIMALAYANORTHODOXTEA\himalayanorthodoxtea itr23\himalayanorthodoxtea\bin\himalayanorthodoxtea.pdb
+C:\Users\ashesh\Documents\Visual Studio 2010\Projects\HIMALAYANORTHODOXTEA\himalayanorthodoxtea itr23\himalayanorthodoxtea\obj\Release\himalayanorthodoxtea.dll
+C:\Users\ashesh\Documents\Visual Studio 2010\Projects\HIMALAYANORTHODOXTEA\himalayanorthodoxtea itr23\himalayanorthodoxtea\obj\Release\himalayanorthodoxtea.pdb
+C:\Users\ashesh\Documents\Visual Studio 2010\Projects\HIMALAYANORTHODOXTEA\himalayanorthodoxtea itr23\himalayanorthodoxtea\obj\Release\himalayanorthodoxtea.csprojResolveAssemblyReference.cache
+B:\broadway\PROJECT\smalltea\himalayanorthodoxtea itr23\himalayanorthodoxtea\bin\himalayanorthodoxtea.dll.config
+B:\broadway\PROJECT\smalltea\himalayanorthodoxtea itr23\himalayanorthodoxtea\bin\himalayanorthodoxtea.dll
+B:\broadway\PROJECT\smalltea\himalayanorthodoxtea itr23\himalayanorthodoxtea\bin\himalayanorthodoxtea.pdb
+B:\broadway\PROJECT\smalltea\himalayanorthodoxtea itr23\himalayanorthodoxtea\obj\Release\himalayanorthodoxtea.dll
+B:\broadway\PROJECT\smalltea\himalayanorthodoxtea itr23\himalayanorthodoxtea\obj\Release\himalayanorthodoxtea.pdb
+B:\broadway\PROJECT\smalltea\himalayanorthodoxtea itr23\himalayanorthodoxtea\obj\Release\himalayanorthodoxtea.csprojResolveAssemblyReference.cache
